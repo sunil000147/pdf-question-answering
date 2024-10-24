@@ -1,5 +1,9 @@
+#langchain==0.1.12
+#langchain-community==0.0.27
+
 langchain==0.1.12
-langchain-community==0.0.27
+langchain-community>=0.0.28
+
 streamlit==1.31.0
 torch==2.0.0  # Downgrade if higher versions cause issues
 transformers==4.30.0  # Adjust based on compatibility with torch
@@ -12,3 +16,4 @@ bitsandbytes==0.41.3
 safetensors==0.4.0
 einops==0.6.0
 pyyaml==6.0.1
+sentence-transformers==2.2.2
