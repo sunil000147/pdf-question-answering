@@ -1,15 +1,14 @@
 langchain==0.1.12
 langchain-community==0.0.27
 streamlit==1.31.0
-torch==2.2.0
-transformers==4.37.2
-pinecone-client==3.0.2
-sentence-transformers==2.5.1
-PyMuPDF==1.23.21
+torch==2.0.0  # Downgrade if higher versions cause issues
+transformers==4.30.0  # Adjust based on compatibility with torch
+sentence-transformers==2.2.2
+PyMuPDF==1.22.0  # Adjust if version conflicts occur
 python-dotenv==1.0.0
 protobuf==4.25.2
-accelerate==0.27.2
+accelerate==0.20.0
 bitsandbytes==0.41.3
-safetensors==0.4.2
-einops==0.7.0
+safetensors==0.4.0
+einops==0.6.0
 pyyaml==6.0.1
