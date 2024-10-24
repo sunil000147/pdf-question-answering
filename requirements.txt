@@ -16,4 +16,5 @@ bitsandbytes==0.41.3
 safetensors==0.4.0
 einops==0.6.0
 pyyaml==6.0.1
-sentence-transformers==2.2.2
+sentence-transformers==2.2.2"sentence-transformers==2.2.2" 
+"sentence-transformers==2.2.2" 
